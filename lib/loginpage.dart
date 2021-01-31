@@ -175,7 +175,9 @@ class _LoginpageState extends State<Loginpage> {
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.end,
                               children: [
-                                Text('Forgot Password?',style: TextStyle(color: Colors.teal, fontWeight: FontWeight.bold),)
+                                FlatButton(
+                                  onPressed:(){},
+                                    child: Text('Forgot Password?',style: TextStyle(color: Colors.teal, fontWeight: FontWeight.bold),))
                               ],
                             ),
                           ),
