@@ -186,7 +186,7 @@ class _LoginpageState extends State<Loginpage> {
                           ),
                           SizedBox(
                             width: 135,
-                            height: 40,
+                            height: 42,
                             child: RaisedButton(
                                 shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(8.0),
